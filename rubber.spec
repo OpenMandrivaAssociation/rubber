@@ -12,6 +12,7 @@ License:	GPL
 Group:		Publishing
 Requires:	tetex
 %py_requires -d
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  texinfo
 BuildArch: noarch
 
