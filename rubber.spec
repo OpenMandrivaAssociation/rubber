@@ -1,6 +1,6 @@
 %define name rubber
 %define version 1.1
-%define release %mkrel 5
+%define release %mkrel 6
 
 Name:		%name
 Summary:	An automated system for building LaTeX documents
