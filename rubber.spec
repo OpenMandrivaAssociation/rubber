@@ -39,8 +39,6 @@ rm -rf $RPM_BUILD_ROOT
 python setup.py install --root=$RPM_BUILD_ROOT
 
 
-%preun
-%_remove_install_info %{name}.info
 
 %clean
 rm -rf $RPM_BUILD_ROOT
