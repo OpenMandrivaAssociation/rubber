@@ -38,8 +38,6 @@ Metapost compilation).
 rm -rf $RPM_BUILD_ROOT
 python setup.py install --root=$RPM_BUILD_ROOT
 
-%post
-%_install_info %{name}.info
 
 %preun
 %_remove_install_info %{name}.info
