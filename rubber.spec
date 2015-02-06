@@ -1,7 +1,7 @@
 Name:		rubber
 Summary:	An automated system for building LaTeX documents
 Version:	1.1
-Release:	9
+Release:	10
 Source:		http://ebeffara.free.fr/pub/%{name}-%{version}.tar.bz2
 URL:		http://www.pps.jussieu.fr/~beffara/soft/rubber/
 License:	GPL
